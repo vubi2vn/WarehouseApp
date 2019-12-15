@@ -1,0 +1,16 @@
+D:\OneDrive\BaiGiang\2017_2018\HKI\LTW_NC\DemoBuoi7\DAL_New\bin\Debug\DAL_New.dll
+D:\OneDrive\BaiGiang\2017_2018\HKI\LTW_NC\DemoBuoi7\DAL_New\bin\Debug\DAL_New.pdb
+D:\OneDrive\BaiGiang\2017_2018\HKI\LTW_NC\DemoBuoi7\DAL_New\obj\Debug\DAL_New.dll
+D:\OneDrive\BaiGiang\2017_2018\HKI\LTW_NC\DemoBuoi7\DAL_New\obj\Debug\DAL_New.pdb
+D:\OneDrive\BaiGiang\2017_2018\HKI\LTW_NC\DemoBuoi7\DAL_New\obj\Debug\DAL_New.csprojResolveAssemblyReference.cache
+C:\Users\danh\Downloads\DemoBuoi7\DemoBuoi7\DAL_New\bin\Debug\DAL_New.dll
+C:\Users\danh\Downloads\DemoBuoi7\DemoBuoi7\DAL_New\bin\Debug\DAL_New.pdb
+C:\Users\danh\Downloads\DemoBuoi7\DemoBuoi7\DAL_New\obj\Debug\DAL_New.csproj.CoreCompileInputs.cache
+C:\Users\danh\Downloads\DemoBuoi7\DemoBuoi7\DAL_New\obj\Debug\DAL_New.dll
+C:\Users\danh\Downloads\DemoBuoi7\DemoBuoi7\DAL_New\obj\Debug\DAL_New.pdb
+E:\1.BH\5_6\DemoBuoi7\DemoBuoi7\DAL_New\bin\Debug\DAL_New.dll
+E:\1.BH\5_6\DemoBuoi7\DemoBuoi7\DAL_New\bin\Debug\DAL_New.pdb
+E:\1.BH\5_6\DemoBuoi7\DemoBuoi7\DAL_New\obj\Debug\DAL_New.csproj.CoreCompileInputs.cache
+E:\1.BH\5_6\DemoBuoi7\DemoBuoi7\DAL_New\obj\Debug\DAL_New.dll
+E:\1.BH\5_6\DemoBuoi7\DemoBuoi7\DAL_New\obj\Debug\DAL_New.pdb
+E:\1.BH\5_6\DemoBuoi7\DemoBuoi7\DAL_New\obj\Debug\DAL_New.csprojAssemblyReference.cache

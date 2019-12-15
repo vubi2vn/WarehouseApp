@@ -1,0 +1,6 @@
+D:\HỌC\DemoWinNC\DAL_WareHouse\bin\Debug\DAL_WareHouse.dll
+D:\HỌC\DemoWinNC\DAL_WareHouse\bin\Debug\DAL_WareHouse.pdb
+D:\HỌC\DemoWinNC\DAL_WareHouse\obj\Debug\DAL_WareHouse.dll
+D:\HỌC\DemoWinNC\DAL_WareHouse\obj\Debug\DAL_WareHouse.pdb
+D:\HỌC\DemoWinNC\DAL_WareHouse\bin\Debug\DAL_WareHouse.dll.config
+D:\HỌC\DemoWinNC\DAL_WareHouse\obj\Debug\DAL_WareHouse.csproj.CoreCompileInputs.cache

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QLKhoBenBai" Class="QuanLyKhoDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=LAPTOP-2MTJFAN4\SQLEXPRESS;Initial Catalog=QLKhoBenBai;User ID=sa" SettingsObjectName="DAL_WareHouse.Properties.Settings" SettingsPropertyName="QLKhoBenBaiConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CHI_TIET_PHIEU_DAT" Member="CHI_TIET_PHIEU_DATs">
+    <Type Name="CHI_TIET_PHIEU_DAT">
+      <Column Name="MA_CTPD" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MAPHIEUDAT" Type="System.String" DbType="Char(10) NOT NULL" CanBeNull="false" />
+      <Column Name="MAMATHANG" Type="System.String" DbType="Char(10) NOT NULL" CanBeNull="false" />
+      <Column Name="SOLUONG" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TAIKHOAN" Member="TAIKHOANs">
+    <Type Name="TAIKHOAN">
+      <Column Name="TENDN" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MATKHAU" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="HOATDONG" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DM_MANHINH" Member="DM_MANHINHs">
+    <Type Name="DM_MANHINH">
+      <Column Name="MAMANHINH" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TENMANHINH" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KE_HANG" Member="KE_HANGs">
+    <Type Name="KE_HANG">
+      <Column Name="MAKEHANG" Type="System.String" DbType="Char(8) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MAKV" Type="System.String" DbType="Char(10) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KHU_VUC" Member="KHU_VUCs">
+    <Type Name="KHU_VUC">
+      <Column Name="MAKV" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TENKV" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NGUOIDUNG_NHOMNGUOIDUNG" Member="NGUOIDUNG_NHOMNGUOIDUNGs">
+    <Type Name="NGUOIDUNG_NHOMNGUOIDUNG">
+      <Column Name="TENDN" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MANHOMNGUOIDUNG" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PHIEU_DAT_HANG" Member="PHIEU_DAT_HANGs">
+    <Type Name="PHIEU_DAT_HANG">
+      <Column Name="MAPHIEUDAT" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MANCC" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="MANV" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="NGAYLAP" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QL_NHOMNGUOIDUNG" Member="QL_NHOMNGUOIDUNGs">
+    <Type Name="QL_NHOMNGUOIDUNG">
+      <Column Name="MANHOMNGUOIDUNG" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TENNHOMNGUOIDUNG" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QL_PHANQUYEN" Member="QL_PHANQUYENs">
+    <Type Name="QL_PHANQUYEN">
+      <Column Name="MANHOMNGUOIDUNG" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MAMANHINH" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="COQUYEN" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="" Member="HANG_HOA_TTCBs">
+    <Type Name="HANG_HOA_TTCB">
+      <Column Name="MAMATHANG" Type="System.String" CanBeNull="false" />
+      <Column Name="TENMATHANG" Type="System.String" CanBeNull="false" />
+      <Column Name="SOLUONG" Type="System.Int32" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NHA_CUNG_CAP" Member="NHA_CUNG_CAPs">
+    <Type Name="NHA_CUNG_CAP">
+      <Column Name="MANCC" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TENNCC" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SODIENTHOAI" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="DIACHI" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="GHICHU" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NHAN_VIEN" Member="NHAN_VIENs">
+    <Type Name="NHAN_VIEN">
+      <Column Name="MANV" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TENDN" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="CHUCVU" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="NGAYSINH" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="GIOITINH" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="SODIENTHOAI" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="NGAYVAOLAM" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="HESOLUONG" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="LUONGCOBAN" Type="System.Decimal" DbType="Decimal(8,2)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HANG_HOA" Member="HANG_HOAs">
+    <Type Name="HANG_HOA">
+      <Column Name="MAMATHANG" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TENMATHANG" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SOLUONG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DONGIANHAP" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="DONGIABAN" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="GHICHU" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NGAYSANXUAT" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="HANSUDUNG" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="NGAYNHAP" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="MAKEHANG" Type="System.String" DbType="Char(8) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CHI_TIET_PHIEU_XUAT" Member="CHI_TIET_PHIEU_XUATs">
+    <Type Name="CHI_TIET_PHIEU_XUAT">
+      <Column Name="MA_CTPX" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MAHD" Type="System.String" DbType="Char(10) NOT NULL" CanBeNull="false" />
+      <Column Name="MAMATHANG" Type="System.String" DbType="Char(10) NOT NULL" CanBeNull="false" />
+      <Column Name="SOLUONG" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PHIEU_XUAT_KHO" Member="PHIEU_XUAT_KHOs">
+    <Type Name="PHIEU_XUAT_KHO">
+      <Column Name="MAHD" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MANV" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="NGAYLAP" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,10 @@
+D:\HỌC\DemoWinNC\BLL_WareHouse\obj\Debug\BLL_WareHouse.csproj.CoreCompileInputs.cache
+D:\HỌC\DemoWinNC\BLL_WareHouse\bin\Debug\BLL_WareHouse.dll
+D:\HỌC\DemoWinNC\BLL_WareHouse\bin\Debug\BLL_WareHouse.pdb
+D:\HỌC\DemoWinNC\BLL_WareHouse\bin\Debug\DAL_WareHouse.dll
+D:\HỌC\DemoWinNC\BLL_WareHouse\bin\Debug\DAL_WareHouse.pdb
+D:\HỌC\DemoWinNC\BLL_WareHouse\bin\Debug\DAL_WareHouse.dll.config
+D:\HỌC\DemoWinNC\BLL_WareHouse\obj\Debug\BLL_WareHouse.csproj.CopyComplete
+D:\HỌC\DemoWinNC\BLL_WareHouse\obj\Debug\BLL_WareHouse.dll
+D:\HỌC\DemoWinNC\BLL_WareHouse\obj\Debug\BLL_WareHouse.pdb
+D:\HỌC\DemoWinNC\BLL_WareHouse\obj\Debug\BLL_WareHouse.csprojAssemblyReference.cache

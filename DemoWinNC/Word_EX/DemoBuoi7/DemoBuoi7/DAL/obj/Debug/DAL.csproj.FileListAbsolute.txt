@@ -1,0 +1,5 @@
+D:\OneDrive\BaiGiang\2017_2018\HKI\LTW_NC\DemoBuoi7\DAL\bin\Debug\DAL.dll
+D:\OneDrive\BaiGiang\2017_2018\HKI\LTW_NC\DemoBuoi7\DAL\bin\Debug\DAL.pdb
+D:\OneDrive\BaiGiang\2017_2018\HKI\LTW_NC\DemoBuoi7\DAL\obj\Debug\DAL.dll
+D:\OneDrive\BaiGiang\2017_2018\HKI\LTW_NC\DemoBuoi7\DAL\obj\Debug\DAL.pdb
+D:\OneDrive\BaiGiang\2017_2018\HKI\LTW_NC\DemoBuoi7\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
